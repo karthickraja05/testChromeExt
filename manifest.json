@@ -3,13 +3,10 @@
   "version": "0.1.0",
   "description": "Download video from Websites",
   "permissions": ["storage", "activeTab"],
-  "web_accessible_resources": [
-    "test.js"
-  ],
   "content_scripts": [
     {
       "matches": ["https://*/*","http://*/*"],
-      "js": ["content.js"],
+      "js": ["jquery1.js","content.js"],
       "all_frames": true
     }
   ],
@@ -22,5 +19,5 @@
     "default_title": "My YT Bookmarks",
     "default_popup": "popup.html"
   },
-  "manifest_version": 2
+  "manifest_version": 3
 }
