@@ -8,3 +8,5 @@
       "js": ["contentScript.js"]
     }
   ],
+
+  // dummy changes
